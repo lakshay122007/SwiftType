@@ -38,10 +38,9 @@ export default function App() {
         {status !== "finished" && (
         <div className="flex items-center justify-center gap-2 text-sm text-muted">
           <span>start typing to begin</span>
-          <span>·</span>
-          <kbd className="border border-muted rounded px-2 py-0 text-xs text-accent font-mono">tab</kbd>
+          <p className="border border-muted rounded px-2 py-0 text-xs text-accent font-mono">tab</p>
           <span>or</span>
-          <kbd className="border border-muted rounded px-2 py-0 text-xs text-accent font-mono">esc</kbd>
+          <p className="border border-muted rounded px-2 py-0 text-xs text-accent font-mono">esc</p>
           <span>to restart</span>
         </div>
         )}

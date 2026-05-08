@@ -68,10 +68,9 @@ export function useTypingEngine(mode, timeLimit) {
             e.preventDefault();
             loadText(mode);
             return;
-        }
+        }  
         if (e.ctrlKey || e.altKey || e.metaKey) return;
         if (e.key === " ") e.preventDefault();
-        if (e.key.length !== 1 && e.key !== "Backspace") return;
 
         if (status === "waiting") {
             setStatus("typing");

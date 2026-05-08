@@ -6,7 +6,7 @@ export default function Header({ mode, time }) {
         <span className="text-muted">wift</span>
         <span className="text-accent">T</span>
         <span className="text-muted">ype</span><br />
-        <span className="text-muted font-normal text-base text-center">
+        <span className="text-accent font-bold text-base text-center">
           {mode} · {time === Infinity ? "∞" : `${time}s`}
         </span>
       </h1>

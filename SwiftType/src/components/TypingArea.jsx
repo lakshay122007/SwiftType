@@ -29,7 +29,7 @@ export default function TypingArea({ textArray, userInput }) {
         style={{
           height: "1.6rem",
           backgroundColor: "#8be9fd",
-          transform: `translate(${caretPos.x}px, ${caretPos.y + 4}px)`,
+          transform: `translate(${caretPos.x}px, ${caretPos.y}px)`,
           transition: "transform 100ms ease-out",
           zIndex: 10,
         }}
