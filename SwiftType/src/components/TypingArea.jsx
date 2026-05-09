@@ -38,8 +38,6 @@ export default function TypingArea({ textArray, userInput }) {
         style={{
           fontSize: "1.35rem",
           lineHeight: "2.4rem",
-          whiteSpace: "pre-wrap",
-          wordBreak: "break-word",
         }}
       >
         {textArray.map((char, i) => {
