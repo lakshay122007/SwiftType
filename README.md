@@ -2,6 +2,8 @@
 
 A minimalist, developer-focused typing speed test application. Built entirely with pure React and TailwindCSs, focusing on clean UI and precise state management.
 
+checkout the deployed App here! - `swift-type-1.netlify.app`
+
 ## Features
 
 * **Real-Time Analytics:** Calculates Words Per Minute (WPM) and typing accuracy on the fly.
