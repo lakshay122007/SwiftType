@@ -2,7 +2,7 @@
 
 A minimalist, developer-focused typing speed test application. Built entirely with pure React and TailwindCSs, focusing on clean UI and precise state management.
 
-checkout the deployed App here! - [SwiftType](swift-type-1.netlify.app)
+checkout the deployed App here! - [SwiftType](https://swift-type-1.netlify.app)
 
 ## Features
 
